@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@controllers/*": ["src/controllers/*"]
+    }
+  },
+  "include": ["src/**/*", "dist/**/*"],
+  "exclude": ["node_modules/**/*"]
+}
