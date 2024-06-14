@@ -1,0 +1,8 @@
+{
+  "name": "nodejs-starter-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lucasbernardol/nodejs-starter-api.git",
+  "author": "lucasbernardoph <lucasbernardo.touch@gmail.com>",
+  "license": "MIT"
+}
