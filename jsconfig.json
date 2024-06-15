@@ -1,10 +1,5 @@
 {
-  "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@controllers/*": ["src/controllers/*"]
-    }
-  },
+  "extends": "./jsconfig-paths.json",
   "include": ["src/**/*", "dist/**/*"],
   "exclude": ["node_modules/**/*"]
 }
