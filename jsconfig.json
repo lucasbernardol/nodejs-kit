@@ -1,5 +1,11 @@
 {
-  "extends": "./jsconfig-paths.json",
-  "include": ["src/**/*", "dist/**/*"],
-  "exclude": ["node_modules/**/*"]
+	"compilerOptions": {
+		"target": "ES2022",
+		"baseUrl": ".",
+		"paths": {
+			"@controllers/*": ["src/controllers/*"]
+		}
+	},
+	"include": ["src/**/*", "dist/**/*"],
+	"exclude": ["node_modules/**/*"]
 }
